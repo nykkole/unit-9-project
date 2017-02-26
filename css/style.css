@@ -1,0 +1,115 @@
+#body {
+	width: 80%;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+.top-headline {
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+.headline {
+	text-align: center;
+}
+
+.subheading {
+	text-align: center;
+	font-weight: bold;
+}
+
+img {
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+h3 {
+	text-align: center;
+}
+
+.left-box {
+	float: left;
+	width: 50%;
+}
+
+.right-box {
+	display: inline-block;
+	width: 50%;
+}
+
+table {
+	width: 80%;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+table, td, th{
+	border: 1px solid #D3D3D3;
+	border-collapse: collapse;
+	text-align: center;
+	empty-cells: show;
+}
+
+td, th {
+	width: 50%;
+	height: 1em;
+}
+
+#map {
+	width: 40%;
+	padding-bottom: 40%;
+	margin: auto;
+	display: block;
+}
+
+.clear-left {
+	clear: left;
+	text-align: center;
+}
+
+div .label {
+	display: inline;
+	float: left;
+	clear: both;
+	padding-bottom: 15px;
+}
+
+div .name {
+	width: 50px;
+	margin-right: 0px;
+	float: left;
+	clear: both;
+}
+
+input {
+	width: 200px;
+}
+
+.clear-margin {
+	margin: 0;
+}
+
+.button {
+	width: 200px;
+	clear: both;
+	margin-left: 50px;
+	border-radius: 0px;
+	border: 1px solid white;
+	background-color: gray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+	background-color: white;
+	color: gray;
+	border: 1px solid gray;
+}
+
+.customer {
+	width: 80%;
+	padding: 10px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monk's Cafe</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id='body'>
+<!-- The name of the restaurant -->
+<h1 class="headline top-headline">Monk's Cafe</h1>
+<p class="subheading">The Coffee Shop</p>
+
+<!-- - A large image of the restaurant -->
+<img class="headline" src="http://circuits-assets.generalassemb.ly/prod/asset/5475/toms-restaurant.jpg">
+
+<!-- - A section for reservations that includes: -->
+<h2 class="headline">Reservations</h2>
+<!-- - A form to make reservations -->
+<div class="left-box">
+	<h3>Make a Reservation</h3>
+	<form>	
+
+		<div class="label">
+			<div class="name">Name</div>
+			<input type="text" name="Name" placeholder="Enter your name">
+		</div>
+			
+		<div class="label">
+			<div class="name">Day</div>
+			<input type="date" name="Day" placeholder="When you would you like to come?">
+		</div>
+		
+		<div class="label">
+			<input type="submit" class="button" value="Confirm Reservation">
+		</div>	
+	</form>
+</div>
+
+<!-- - A table to view existing reservations -->
+<div class="right-box">
+	<h3>Existing Reservations</h3>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Day</th>
+		</tr>
+		<!-- [ form data will publish here ] -->
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+		</tr>
+	</table>
+</div>
+&nbsp;
+&nbsp;
+<!-- - A section to view the map of its location -->
+<h2 class="headline, clear-left">Come Dine With Us</h2>
+<div id="map"></div>
+
+<!-- - A customer review -->
+<h2 class="headline">Customer Reviews</h2>
+<div class="left-box">
+	<img class='customer' src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg">
+</div>
+<div class="right-box">
+	<p class="reviews">“Big lettuce, big carrots, tomatoes like volleyballs.”<br>
+— Jerry Seinfeld, on The BIG Salad</p>
+</div>
+
+
+	<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Google mpas script -->
+	 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA42wF9OBnto7aBIDgDyz1mZWmOpnk2SoE&callback=initMap"
+  type="text/javascript"></script>
+</div>
+</body>
+</html>
